@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+	border:0px solid red;
+	width:750px;
+	height:100%;
+	margin:auto;
+}
+
+#header{
+background:lightyellow;
+padding:15px;
+}
+
+#header h3{
+color:hotpink;
+font-family:calibri;
+}
+#header p{
+color:green;
+font-size:small;
+}
+
+#navigation{
+	background:lightgreen;
+	padding:8px;
+}
+#navigation ul{
+	list-style:none;
+}
+#navigation ul li{
+	display:inline;
+}
+#navigation ul li a{
+	color:white;
+	font-size:small;
+	text-decoration:none;
+}
+
+#banner{
+	height:240px;
+	background:cyan;
+background-image:url('bts.jpg');
+background-size:100% 100%;
+}
+
+
+#master{
+	height:200px;
+	background:cyan;
+}
+#leftbox{
+background:hotpink;
+width:50%;
+height:100%;
+float:left;
+}
+#rightbox{
+	background:maroon;
+	width:50%;
+	float:left;
+	height:100%;
+}
